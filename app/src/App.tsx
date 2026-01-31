@@ -400,13 +400,7 @@ function App() {
           </div>
           
           {/* Construction Worker Lobster */}
-          <div className="relative w-72 h-72 mx-auto mb-8">
-            <img 
-              src="/images/lobster-construction.png" 
-              alt="Under Construction"
-              className="w-full h-full object-contain"
-            />
-          </div>
+          
 
           <h2 className="text-3xl font-pixel text-neon-yellow mb-4">Shhh...</h2>
           <p className="text-neon-yellow/80 font-gaming text-lg max-w-md mx-auto">

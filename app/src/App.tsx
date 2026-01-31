@@ -391,7 +391,13 @@ function App() {
       <section id="avatar" className="py-16 px-4 min-h-screen flex flex-col items-center justify-center bg-black">
         <div className="text-center">
           {/* POLI AVATAR MAKER Logo */}
-          
+          <div className="mb-8">
+            <img 
+              src="/images/poli-avatar-section.png" 
+              alt="POLI AVATAR MAKER"
+              className="w-40 h-auto mx-auto"
+            />
+          </div>
           
           {/* Construction Worker Lobster */}
           <div className="relative w-72 h-72 mx-auto mb-8">

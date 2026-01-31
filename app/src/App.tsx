@@ -105,23 +105,16 @@ function App() {
         {/* Background glow */}
         <div className="absolute inset-0 bg-gradient-radial from-blue-900/20 via-transparent to-transparent pointer-events-none" />
         
-        {/* Main Logo */}
-        <div className="relative w-full max-w-lg mx-auto mb-8 float-animation">
+        {/* Main Logo - Lobster */}
+        <div className="relative w-full max-w-2xl mx-auto mb-4 float-animation">
           <img 
-            src="/images/poli-logo.png" 
-            alt="POLI HARDCORE VOL 1" 
+            src="/images/lobster-logo.png" 
+            alt="LOBSTER HARDCORE VOL 1" 
             className="w-full h-auto drop-shadow-2xl"
           />
         </div>
 
-        {/* Character Preview */}
-        <div className="relative w-48 h-48 mb-8">
-          <img 
-            src="/images/default-poli.png" 
-            alt="Poli Character" 
-            className="w-full h-full object-contain drop-shadow-xl"
-          />
-        </div>
+
 
         {/* Game Controller Buttons */}
         <div className="grid grid-cols-4 gap-4 w-full max-w-md mx-auto">
@@ -352,17 +345,17 @@ function App() {
               <span className="font-pixel text-xs text-neon-yellow">Monitor Chart</span>
             </a>
 
-            {/* Poli Maker */}
+            {/* Lobster Avatar Maker */}
             <a 
               href="#avatar" 
               className="metal-card p-4 flex flex-col items-center gap-3 hover:border-neon-yellow transition-colors group"
             >
               <img 
-                src="/images/poli-maker.png" 
-                alt="Poli Maker"
+                src="/images/lobster-avatar-maker.png" 
+                alt="Lobster Avatar Maker"
                 className="w-16 h-16 object-contain group-hover:scale-110 transition-transform"
               />
-              <span className="font-pixel text-xs text-neon-yellow">Poli Maker</span>
+              <span className="font-pixel text-xs text-neon-yellow">Avatar Maker</span>
             </a>
 
             {/* The Kabal */}
@@ -394,20 +387,16 @@ function App() {
         </div>
       </section>
 
-      {/* Secret Section */}
-      <section id="avatar" className="py-16 px-4 min-h-screen flex flex-col items-center justify-center">
+      {/* Secret Section - Avatar Maker */}
+      <section id="avatar" className="py-16 px-4 min-h-screen flex flex-col items-center justify-center bg-black">
         <div className="text-center">
-          <div className="mb-8">
-            <img 
-              src="/images/poli-logo.png" 
-              alt="Poli Avatar Maker"
-              className="w-32 h-auto mx-auto opacity-80"
-            />
-          </div>
+          {/* POLI AVATAR MAKER Logo */}
           
-          <div className="relative w-64 h-64 mx-auto mb-8">
+          
+          {/* Construction Worker Lobster */}
+          <div className="relative w-72 h-72 mx-auto mb-8">
             <img 
-              src="/images/construction-poli.png" 
+              src="/images/lobster-construction.png" 
               alt="Under Construction"
               className="w-full h-full object-contain"
             />
